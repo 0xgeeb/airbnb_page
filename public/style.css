@@ -14,12 +14,12 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
-.nav--logo {
-  max-width: 100px;
-}
-
 section {
   padding: 20px;
+}
+
+.nav--logo {
+  max-width: 100px;
 }
 
 .hero {
@@ -29,7 +29,7 @@ section {
 
 .hero--photo {
   align-self: center;
-  height: 350px;
+  height: 300px;
 }
 
 .hero--header {
@@ -42,10 +42,11 @@ section {
 }
 
 .card {
-  width: 175px;
+  width: 185px;
   font-size: 12px;
   padding: 7px;
   flex: 0 0 auto;
+  position: relative;
 }
 
 .cards {
@@ -66,15 +67,34 @@ section {
 }
 
 .card--firstspan {
-  margin-right: 2px;
+  margin-right: 5px;
+  margin-top: 2px;
 }
 
 .card--span {
-  margin-right: 2px;
+  margin-right: 5px;
+  margin-top: 2px;
   color: #918E9B;
 }
 
 .card--star {
-  width: 15px;
+  width: 13px;
   margin-right: 2px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 2px 4px;
+  margin-left: 8px;
+  margin-top: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.card--price {
+  position: absolute;
+  top: 301px;
 }

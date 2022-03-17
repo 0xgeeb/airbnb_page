@@ -11,7 +11,7 @@ export default [
             rating: 5.0,
             reviewCount: 6
         },
-        location: "Pool",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -24,7 +24,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Raleigh",
+        location: "Online",
         openSpots: 27,
     },
     {
@@ -50,7 +50,7 @@ export default [
             rating: 5.0,
             reviewCount: 6
         },
-        location: "Pool",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -63,7 +63,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Raleigh",
+        location: "Online",
         openSpots: 27,
     },
     {
@@ -89,7 +89,7 @@ export default [
             rating: 5.0,
             reviewCount: 6
         },
-        location: "Pool",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -102,7 +102,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Raleigh",
+        location: "Online",
         openSpots: 27,
     },
     {
@@ -128,7 +128,7 @@ export default [
             rating: 5.0,
             reviewCount: 6
         },
-        location: "Pool",
+        location: "Online",
         openSpots: 0,
     },
     {
@@ -141,7 +141,7 @@ export default [
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Raleigh",
+        location: "Online",
         openSpots: 27,
     },
     {

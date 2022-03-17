@@ -8,12 +8,8 @@ export default function App() {
 
     const cards = data.map((x) => {
         return <Card
-            img = {x.coverImg}
-            rating = {x.stats.rating}
-            reviewCount = {"(" + x.stats.reviewCount + ")"}
-            country = {x.location}
-            title = {x.title}
-            price = {"$" + x.price}
+            key = {x.id}
+            x = {x}
         />
     })
 
@@ -28,13 +24,3 @@ export default function App() {
         </div>
     )
 }
-
-
-{/* <Card 
-img = { katie }
-rating = "5.0"
-reviewCount = "(6)"
-country = "USA"
-title = "Life Lessons with Katie Zaferes"
-price = "$136"
-/> */}
