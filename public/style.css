@@ -29,13 +29,52 @@ section {
 
 .hero--photo {
   align-self: center;
+  height: 350px;
 }
 
 .hero--header {
   margin-bottom: 16px;
+  font-size: 40px;
 }
 
 .hero--text {
   margin-top: 0px;
-  max-width: 450px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  padding: 7px;
+  flex: 0 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  height: 235px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--firstspan {
+  margin-right: 2px;
+}
+
+.card--span {
+  margin-right: 2px;
+  color: #918E9B;
+}
+
+.card--star {
+  width: 15px;
+  margin-right: 2px;
 }
